@@ -152,7 +152,8 @@ const translation = {
         },
         pythonCodeAssistant: {
           title: 'Asistente de Código Python',
-          prompt: 'Escribe un script corto y de alta calidad en Python para la tarea dada, algo que escribiría un experto muy hábil en Python. Estás escribiendo código para un desarrollador experimentado, así que solo añade comentarios para cosas que no sean obvias. Asegúrate de incluir cualquier importación requerida. NUNCA escribas nada antes del bloque \\\python\\\. Después de que hayas terminado de generar el código y después del bloque \\\python\\\, revisa tu trabajo cuidadosamente para asegurarte de que no haya errores, fallos o inconsistencias. Si hay errores, enumera esos errores en etiquetas <error>, luego genera una nueva versión con esos errores corregidos. Si no hay errores, escribe "CHECKED: NO ERRORS" en etiquetas <error>.',
+          prompt: `Escribe un script corto y de alta calidad en Python para la tarea dada, algo que escribiría un experto muy hábil en Python. Estás escribiendo código para un desarrollador experimentado, así que solo añade comentarios para cosas que no sean obvias. Asegúrate de incluir cualquier importación requerida. 
+          NUNCA escribas nada antes del bloque \`\`\`python\`\`\`. Después de que hayas terminado de generar el código y después del bloque \`\`\`python\`\`\`, revisa tu trabajo cuidadosamente para asegurarte de que no haya errores, fallos o inconsistencias. Si hay errores, enumera esos errores en etiquetas <error>, luego genera una nueva versión con esos errores corregidos. Si no hay errores, escribe "CHECKED: NO ERRORS" en etiquetas <error>.`,
         },
         mailCategorizer: {
           title: 'Categorizador de Correos',
